@@ -8,3 +8,4 @@ There are many other methods to incorporate physics and symmetry related to phys
 Mostly the models are trained using deeplearning libraries such as tensorflow, pytorch etc. which makes this neural networks kind of black box. Also they use automatic differentiation to calculate the gradients of the loss function with respect to the parameters and inputs,which is necessary for higher order Odes and Pdes.
 
 Although the method of not using library makes our code slow as compared to the optimized matrix calculus but it lets us see how the networks learn
+![Alt text](outputs/2nd_order_ode_damped_output.png) ![Alt text](outputs/2nd_order_shm_output.png) ![Alt text](outputs/2nd_order_underdamped_extenden_domain.png)
